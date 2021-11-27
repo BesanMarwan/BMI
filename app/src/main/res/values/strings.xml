@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BMI Analyzer</string>
+    <string name="next">Next</string>
+    <string name="bmi">Bmi Photo</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="create_account">Create New Account</string>
+    <string name="have_account">If you already have an account , login</string>
+    <string name="sign_account">If you do not already have an account</string>
+    <string name="login_account">You have an account? </string>
+    <string name="not_have_account">You Don\'t have An Account ?</string>
+    <string name="signUp">Sign Up</string>
+    <string name="complete_information">Create Your Information</string>
+    <string name="gender">Gender</string>
+    <string name="weight">Weight</string>
+    <string name="length">Length</string>
+    <string name="birth">Date Of Birth</string>
+    <string name="username">Username</string>
+    <string name="email">E-Mail</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re-Password</string>
+    <string name="login">LOGIN</string>
+    <string name="log_in">Log in</string>
+    <string name="create">Create</string>
+    <string name="save">Save Data</string>
+
+</resources>
