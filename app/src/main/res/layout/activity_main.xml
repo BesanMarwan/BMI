@@ -1,38 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/purple_500"
+    tools:context="com.besan.bmi_project.splashActivity">
 
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/blue"
-        >
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_margin="100sp"
+        android:scaleType="centerInside" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="670dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/bmi"
-            android:src="@drawable/img" />
-
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:text="@string/next"
-            android:textColor="@color/white"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="3dp"
-            android:textStyle="bold"
-            android:textSize="23sp"
-            android:background="?tabSelectedTextColor"/>
-
-</LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
